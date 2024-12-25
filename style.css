@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.input-section, .number-section, .color-section {
+    margin-bottom: 20px;
+}
+
+#numberInput {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#sendButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+
+.number-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-section button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: gray;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#numberDisplay {
+    margin: 0 20px;
+    font-size: 24px;
+    color: red;
+}
+
+.color-section label {
+    margin-right: 10px;
+}
+
+#colorPicker {
+    border: none;
+    cursor: pointer;
+}
